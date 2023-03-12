@@ -1,0 +1,365 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: hsl(218, 28%, 13%);
+}
+/* .bg {
+  z-index: -99;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  width: 100%;
+} */
+.heading img {
+  width: 150px;
+  object-fit: contain;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(209, 192, 192);
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+  transition: 0.5s ease-in all;
+  color: hsl(0, 0%, 100%);
+}
+.image-writing {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.image-writing img {
+  width: 20%;
+}
+.image-writing h1 {
+  font-size: 20px;
+  width: 25rem;
+  line-height: 1.7rem;
+  padding-top: 30px;
+  text-align: center;
+}
+.image-writing p {
+  width: 25rem;
+  font-size: 14px;
+  line-height: 1.2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.image-writing button {
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: hsl(0, 0%, 100%);
+  background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  cursor: pointer;
+  display: flex;
+}
+.image-writing button:hover {
+  background: hsl(176, 68%, 64%);
+  transition: 0.5s ease-in-out all;
+}
+.information {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 100px;
+}
+
+.information-first,
+.information-second,
+.information-third,
+.information-fourth {
+  width: 400px;
+}
+.information-first h3,
+.information-second h3,
+.information-third h3,
+.information-fourth h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.arrow {
+  display: flex;
+  margin-top: 20px;
+}
+.arrow :hover hr {
+  border-top: 2px solid white;
+}
+.arrow a:hover {
+  color: white;
+  text-decoration: none;
+}
+.arrow a:hover hr {
+  border-top: 2px solid white;
+}
+.arrow a {
+  width: 100%;
+  color: hsl(176, 68%, 64%);
+  /* padding-bottom: 10px; */
+}
+hr {
+  border-top: 2px solid hsl(176, 68%, 64%);
+  width: 50%;
+}
+.arrow > img {
+  height: 20px;
+  object-fit: contain;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  right: 35%;
+}
+.two-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.two-content img {
+  width: 400px;
+}
+.two-content div {
+  width: 400px;
+  line-height: 1.3rem;
+}
+.two-content > div > p {
+  padding-top: 10px;
+  font-size: 15px;
+}
+.two-content div h1 {
+  line-height: 2rem;
+  width: 350px;
+  font-size: 30px;
+}
+.quotes {
+  z-index: -1;
+  width: 50px;
+  margin-left: 10%;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: -10px;
+  margin-bottom: 10rem;
+  position: relative;
+}
+.first-review {
+  border-radius: 3px;
+  width: 320px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 20px;
+  font-size: 14px;
+}
+.first-review img {
+  width: 40px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.profile-names {
+  display: flex;
+  margin: 10px auto;
+  gap: 1rem;
+}
+.names::first-line {
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+form {
+  background-color: hsl(217, 28%, 15%);
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  z-index: 99;
+  position: relative;
+  bottom: -30px;
+}
+form h2 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+form p {
+  font-size: 14px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+input[type="email"] {
+  width: 320px;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+#demo {
+  font-size: 11px;
+  color: hsl(0, 100%, 63%);
+  padding-top: 5px;
+  display: none;
+}
+input[type="submit"]:hover {
+  background: hsl(176, 68%, 64%);
+  transition: 0.5s ease-in-out all;
+}
+footer {
+  background-color: hsl(216, 53%, 9%);
+  z-index: -9999;
+  padding: 90px;
+  padding-bottom: 10px;
+}
+.logo {
+  width: 100px;
+}
+.last-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  gap: 50px;
+}
+.location{
+  object-fit: contain;
+}
+.location-text {
+  width: 300px;
+  font-size: 14px;
+}
+.call,
+.email,.location-image {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.about,
+.privacy {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .information {
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+
+  .two-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .two-content div {
+    justify-content: center;
+    width: 330px;
+  }
+
+  .reviews {
+   flex-direction: column;
+  }
+  .first-review {
+    margin: 3%;
+  }
+  .image-writing {
+    margin: auto;
+    gap: 0;
+    align-self: center;
+  }
+  .image-writing img {
+    width: 300px;
+  }
+  .image-writing button {
+    margin: 0 auto;
+  }
+  .email-button {
+    display: flex;
+    flex-direction: column;
+  }
+  input[type="email"] {
+    width:100%;
+    margin-bottom: 10px;
+  }
+  form {
+    border-radius: 10px;
+    width: 95%;
+  }
+  .last-flex {
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 4rem;
+    justify-content: left;
+    align-items: start;
+    
+  }
+  .logo{
+    width: 150px;
+  }
+  .attribution {
+    text-align: justify;
+  }
+  .heading {
+    justify-content: space-around;
+  }
+  ul li {
+    padding: 10px;
+  }
+  ul li a {
+    font-size: 14px;
+  }
+  .quotes {
+    margin-left: 20%;
+  }
+  .arrow  img{
+    right: 25%;
+  }
+
+}
