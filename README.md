@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./127.0.0.1_5500_(Nest Hub Max) (1).png)
+![](./images/desktop.png)
+![](./images/mobile.png)
 
 ### Links
 
