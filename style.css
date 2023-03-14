@@ -35,7 +35,7 @@ ul {
 li {
   list-style-type: none;
   padding: 20px;
-  word-break: keep-all;
+  /* word-break: keep-all; */
 }
 a {
   text-decoration: none;
@@ -154,12 +154,10 @@ hr {
 .two-content > div > p {
   padding-top: 10px;
   font-size: 15px;
-  width: 89%;
 }
 .two-content div h1 {
   line-height: 2rem;
   font-size: 30px;
-  width: 80%;
 
 }
 .quotes {
@@ -304,7 +302,7 @@ footer {
     margin-bottom: 2rem;
   }
   
-.information-box P{
+.information-box p{
   width: 100%;
 }
 
@@ -314,6 +312,9 @@ footer {
   }
   .two-content img{
     width: 55%;
+  }
+  .two-content div{
+    width: auto;
   }
 .two-content-writing p{
     padding-top: 20px;
@@ -335,9 +336,12 @@ footer {
     width: 90%;
   }
   .image-writing {
-    margin: auto;
+    margin:0 auto;
     gap: 0;
     align-self: center;
+  }
+  .image-writing h1{
+    width: auto;
   }
   .image-writing img {
     width: 300px;
@@ -345,9 +349,13 @@ footer {
   .image-writing button {
     margin: 0 auto;
   }
- .image-writing p{
-  width: 350px;
- }
+ .image-writing p {
+  width: 19rem;
+  font-size: 14px;
+  line-height: 1.2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
   .email-button {
     display: flex;
     flex-direction: column;
@@ -382,16 +390,16 @@ footer {
     line-height: 1.7rem;
   }
   .heading img{
-    width: 100px;
+    width: 70px;
   }
   .heading{
     padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 10px;
-    /* width: 100%; */
+    padding-right: 5px;
+    margin: 10px;
+    margin-bottom: 40px;
   }
   ul li {
-    padding: 10px;
+    padding: 5px;
   }
   ul li a {
     font-size: 14px;
